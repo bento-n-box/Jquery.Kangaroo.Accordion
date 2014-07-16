@@ -53,6 +53,7 @@ $(document).ready(function(){
   scrollEasing: 'easeOutCubic',
   // Throttled refresh time
   refreshRate: 500
+
 ```
 
 ```javascript
@@ -81,22 +82,13 @@ $(document).ready(function(){
       kangaroo.close($context, $item);
 });
 
-
+```
 ```
 isOpened - returns true or false
 toggleItem($item) - opens/closes item
 close($pouch, $item) - closes item
 open($pouch, $item) - opens item
-
-``
-self.dom.caseStudy.click(function(e){
-        var $context = $(this);
-        var $item = $context.find('.st-content');
-        $item.find("img.lazy-load").lazyload();
-        kangaroo.close($context, $item);
-      }).children().click(function(e) {
-        return false;
-      });
+```
 
 
 ## Documentation
