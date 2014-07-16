@@ -10,6 +10,7 @@ Put the script at the [bottom](https://developer.yahoo.com/performance/rules.htm
 
 ```html
 <script src="jquery.min.js"></script>
+<script src="jquery.easing.1.3.js"></script>
 <script src="jquery.kangaroo.accordion.js"></script>
 ```
 
