@@ -248,9 +248,10 @@
     },
 
     /**
-     * Close specific Item
+     * Open specific Item
      */
     open: function($item, $content) {
+      console.log(open);
       var instance = this;
       this.current = $item.index(), 
       $content.stop(true, true),

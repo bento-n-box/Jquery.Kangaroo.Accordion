@@ -85,9 +85,9 @@ $(document).ready(function(){
 ```
 ```
 isOpened - returns true or false
-toggleItem($item) - opens/closes item
-close($pouch, $item) - closes item
-open($pouch, $item) - opens item
+toggleItem($pouch) - opens/closes item
+close($pouch, $pouchContent) - closes item
+open($pouch, $pouchContent) - opens item
 ```
 
 
