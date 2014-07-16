@@ -39,7 +39,7 @@ $(document).ready(function(){
 ```
 
 ## Options
-
+```
   open: -1,
   // if set to true, only one item can be opened. Once one item is opened, any other that is opened will be closed first
   oneOpenedItem: true,
@@ -53,7 +53,7 @@ $(document).ready(function(){
   scrollEasing: 'easeOutCubic',
   // Throttled refresh time
   refreshRate: 500
-
+```
 
 ```javascript
 $(document).ready(function(){
@@ -67,6 +67,37 @@ $(document).ready(function(){
     responsiveClass: false
   });
 });
+```
+
+## Events
+
+```
+ var kangaroo = $('#kangaroo').data('kangaroo');
+ kangaroo.openAll();
+
+ $('button').click(function(e){
+      var $pouch = $('#kangaroo');
+      var $item = $context.find('.pouch');
+      kangaroo.close($context, $item);
+});
+
+
+```
+isOpened - returns true or false
+toggleItem($item) - opens/closes item
+close($pouch, $item) - closes item
+open($pouch, $item) - opens item
+
+``
+self.dom.caseStudy.click(function(e){
+        var $context = $(this);
+        var $item = $context.find('.st-content');
+        $item.find("img.lazy-load").lazyload();
+        kangaroo.close($context, $item);
+      }).children().click(function(e) {
+        return false;
+      });
+
 
 ## Documentation
 
