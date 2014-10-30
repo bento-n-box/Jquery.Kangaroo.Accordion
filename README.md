@@ -120,5 +120,5 @@ license your work under the terms of the [MIT License](LICENSE).**
 
 The code and the documentation are released under the [MIT License](LICENSE).
 
-## Sites That Use IT
+## Sites That Use Kangaroo
 http://www.blackmarketgroup.com/
