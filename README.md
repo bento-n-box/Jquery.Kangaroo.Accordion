@@ -1,5 +1,10 @@
 # Kangaroo V 1.0
 
+EXAMPLE: http://rochestb.github.io/Jquery.Kangaroo.Accordion/example.html
+
+## Sites That Use Kangaroo
+http://www.blackmarketgroup.com/
+
 [jQuery](http://jquery.com/) plugin that lets you create beautiful responsive Accordion dropdown content.
 
 ```html
@@ -119,6 +124,3 @@ license your work under the terms of the [MIT License](LICENSE).**
 ## License
 
 The code and the documentation are released under the [MIT License](LICENSE).
-
-## Sites That Use Kangaroo
-http://www.blackmarketgroup.com/
